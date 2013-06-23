@@ -139,11 +139,9 @@
     <Compile Include="App_Start\ExtNetConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="CustomException.cs" />
-    <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ExtNetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,10 +179,10 @@
     <Content Include="Views\Home\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\ExtNet\Index.cshtml" />
+    <Content Include="App_Readme\Ext.NET.MVC\Sample.Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Readme\Ext.NET.MVC\Sample.Web.config" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
